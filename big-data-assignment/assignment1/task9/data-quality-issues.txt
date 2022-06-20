@@ -1,0 +1,12 @@
+data issues:
+
+for task1, I assume that open-violations.csv is a subset of parking-violations.csv.
+Therefore, in reducer.py, I just count the number of each key. If the number of key is only one,
+my code will regard it as an item from parking-violation.csv dataset, otherwise it is an item from 
+open-violation.csv dataset. However, after checking the output of my code, I found that there is some strange 
+result(since in the map.py I set the value for open-violation.csv item to 'foo, bar'). So it turns out that 
+my code also output the item from open-violation.csv and there exist some items belong to open-violation.csv but not
+belong to the parking-violation.csv. But in the real world, it would not happen. I guess maybe it is the mistake from recording
+ststem.
+
+

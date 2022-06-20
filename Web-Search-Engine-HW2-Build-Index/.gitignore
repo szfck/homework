@@ -1,0 +1,17 @@
+.DS_Store
+*.pyc
+*.pdf
+wet_files
+src/*.o
+src/merge
+src/word_count
+src/test
+src/build_index
+*.bin
+*.txt
+*.zip
+other*
+old*
+**/wet.paths
+output
+.vscode

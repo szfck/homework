@@ -1,0 +1,8 @@
+output/
+extract/wet_files
+extract/test.py
+cmake-build-debug
+.idea
+.DS_Store
+in.txt
+out.txt

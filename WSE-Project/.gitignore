@@ -1,0 +1,7 @@
+out/
+old/
+description.txt
+yelp_dataset/
+.DS_Store
+.idea
+src/main/resources/

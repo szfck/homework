@@ -1,0 +1,8 @@
+code
+*.properties
+studentProblems*
+moss
+**/build
+**/.idea
+**/.vscode
+.DS_Store

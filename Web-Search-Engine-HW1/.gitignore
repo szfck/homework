@@ -1,0 +1,12 @@
+doc*
+*.sh
+*.log
+*.pyc
+out
+try*
+other*
+*.html
+output
+*.tar
+submit
+.DS*
